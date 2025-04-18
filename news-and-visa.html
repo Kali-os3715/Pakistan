@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pakistan</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #006400;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            background: #444;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background: #575757;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #006400;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #004d00;
+        }
+
+        footer {
+            background: #444;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Pakistan</h1>
+        <nav>
+            <ul>
+                <li><a href="#enews">E-News Links</a></li>
+                <li><a href="#visa">Visa Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="enews">
+            <h2>E-News Links</h2>
+            <p>Browse the latest news from trusted sources:</p>
+            <button onclick="window.open('https://www.geo.tv/', '_blank')">Geo News</button>
+            <button onclick="window.open('https://www.express.com.pk/', '_blank')">Express News</button>
+            <button onclick="window.open('https://www.bbc.com/news', '_blank')">BBC News</button>
+        </section>
+        <section id="visa">
+            <h2>Visa Services</h2>
+            <p>Explore visa services for Pakistanis worldwide:</p>
+            <button onclick="window.open('https://www.visa.com.pk/', '_blank')">Visa Official</button>
+            <button onclick="window.open('https://www.schengenvisainfo.com/', '_blank')">Schengen Visa Info</button>
+            <button onclick="window.open('https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html', '_blank')">Canada Visa</button>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out via email at <a href="mailto:pakistanismservice@gmail.com">pakistanismservice@gmail.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Pakistan | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
